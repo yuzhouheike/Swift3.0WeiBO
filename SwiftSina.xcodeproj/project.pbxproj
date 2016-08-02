@@ -14,6 +14,7 @@
 		C626F5931D50247800B37578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C626F5911D50247800B37578 /* LaunchScreen.storyboard */; };
 		C626F59E1D50247800B37578 /* SwiftSinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626F59D1D50247800B37578 /* SwiftSinaTests.swift */; };
 		C626F5A91D50247800B37578 /* SwiftSinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626F5A81D50247800B37578 /* SwiftSinaUITests.swift */; };
+		C626F5B71D5024C400B37578 /* Demolabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626F5B61D5024C400B37578 /* Demolabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C626F5A41D50247800B37578 /* SwiftSinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C626F5A81D50247800B37578 /* SwiftSinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSinaUITests.swift; sourceTree = "<group>"; };
 		C626F5AA1D50247800B37578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C626F5B61D5024C400B37578 /* Demolabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demolabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C626F5881D50247800B37578 /* AppDelegate.swift */,
 				C626F58A1D50247800B37578 /* ViewController.swift */,
+				C626F5B61D5024C400B37578 /* Demolabel.swift */,
 				C626F58C1D50247800B37578 /* Main.storyboard */,
 				C626F58F1D50247800B37578 /* Assets.xcassets */,
 				C626F5911D50247800B37578 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C626F5B71D5024C400B37578 /* Demolabel.swift in Sources */,
 				C626F58B1D50247800B37578 /* ViewController.swift in Sources */,
 				C626F5891D50247800B37578 /* AppDelegate.swift in Sources */,
 			);

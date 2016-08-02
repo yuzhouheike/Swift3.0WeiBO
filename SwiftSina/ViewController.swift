@@ -10,9 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var label:Demolabel = Demolabel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        setUI();
+        
+    }
+    
+    private func setUI() {
+        
+        view.addSubview(label)
+        label.text = "标签"
+        label.textColor = UIColor.black()
+        label.sizeToFit()
+//        label.frame = self.view.bounds
+        label.center = self.view.center
+//
+        
     }
 
     override func didReceiveMemoryWarning() {
